@@ -5,10 +5,11 @@
 }
 
 body {
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgb(18, 18, 39); 
+  background: rgb(18, 18, 39);
   color: azure;
   padding: 2rem;
   width: 100vw;
@@ -16,14 +17,16 @@ body {
 }
 
 section {
-  padding: 2rem;
+  padding: 1rem;
   font-size: 24px;
-  max-width: 40rem;
-  height: 22rem;
+
   border-radius: 24px;
 
   background: rgb(54, 98, 98);
-  
+}
+
+p {
+  font-size: 1rem;
 }
 
 .clock {
@@ -31,9 +34,10 @@ section {
 }
 
 button {
+  width: 100%;
   cursor: pointer;
   border: 1px solid rgb(18, 18, 39);
-  padding: .7rem;
+  padding: 0.7rem;
   font-size: 1rem;
   border-radius: 2rem;
 }
@@ -44,5 +48,5 @@ button:hover {
 }
 
 .stoped {
-  color: rgb(66, 10, 10)
+  color: rgb(66, 10, 10);
 }
