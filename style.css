@@ -16,11 +16,22 @@ body {
   height: 100vh;
 }
 
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+}
 section {
-  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
   font-size: 24px;
 
-  border-radius: 24px;
+  width: 45rem;
+  height: 45rem;
+  border-radius: 50%;
 
   background: rgb(54, 98, 98);
 }
@@ -48,5 +59,24 @@ button:hover {
 }
 
 .stoped {
-  color: rgb(66, 10, 10);
+  color: rgb(113, 5, 5);
+}
+
+@media (max-width: 600px) {
+  section {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .clock {
+    font-size: 3rem;
+  }
+
+  button {
+    padding: 0.2rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
 }
