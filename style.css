@@ -23,9 +23,7 @@ h1 {
   font-size: 5rem;
 }
 section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+ 
   padding: 2rem;
   font-size: 24px;
 
